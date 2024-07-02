@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.popularSearchesDiv>::after{
+    content: "|";
+    margin-left: 3px
+/* background-color: black; */
+}
+.sideBar{
+background-image:linear-gradient(270deg, #fef9e5, #fde3f3) ;
+}
+
+.splide__slide {
+    width: 200px !important;
+    /* padding: 5px !important; */
+    /* Set your desired width */
+    height: 300px !important;
+    
+    /* Optional: background color */
+}
